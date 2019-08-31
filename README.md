@@ -4,11 +4,11 @@ Project template for [Nest](https://github.com/nestjs/nest) framework.
 
 ## Feature
 
-[x] Using [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
-[ ] Normalize project folders.
-[ ] Integrated with GraphQL.
-[ ] Integrated with Database(eg: mysql).
-[ ] Jwt auth token.
+- [x] Using [Airbnb JavaScript Style * Guide](https://github.com/airbnb/javascript).  
+- [ ] Normalize project folders.  
+- [ ] Integrated with GraphQL.  
+- [ ] Integrated with Database(eg: mysql).  
+- [ ] Jwt auth token.
 
 ## Installation
 
