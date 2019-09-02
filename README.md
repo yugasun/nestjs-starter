@@ -7,7 +7,7 @@ Project template for [Nest](https://github.com/nestjs/nest) framework.
 - [x] Using [Airbnb JavaScript Style * Guide](https://github.com/airbnb/javascript).  
 - [ ] Normalize project folders.  
 - [ ] Integrated with GraphQL.  
-- [ ] Integrated with Database(eg: mysql).  
+- [x] Integrated with Database(eg: mysql).  
 - [ ] Jwt auth token.
 
 ## Installation
@@ -15,6 +15,10 @@ Project template for [Nest](https://github.com/nestjs/nest) framework.
 ```bash
 $ yarn install
 ```
+
+## Environment
+
+You should install `mysql` firstly, or you can use mysql docker image instead, `docker-compose.yml` had predefined the mysql environment, you can start it by `docker-compose up`;
 
 ## Running the app
 
