@@ -8,7 +8,7 @@ const dbConfig: TypeOrmModuleOptions = {
   host: '127.0.0.1',
   port: 3306,
   username: 'root',
-  password: 'test',
+  password: 'root',
   database: 'test',
   entities: [modelPath],
   synchronize: true,
