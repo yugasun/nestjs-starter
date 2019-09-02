@@ -8,7 +8,7 @@ Project template for [Nest](https://github.com/nestjs/nest) framework.
 - [ ] Normalize project folders.  
 - [ ] Integrated with GraphQL.  
 - [x] Integrated with Database(eg: mysql).  
-- [ ] Jwt auth token.
+- [x] Jwt auth token.
 
 ## Installation
 
