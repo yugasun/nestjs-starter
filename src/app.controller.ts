@@ -10,6 +10,11 @@ export class AppController {
     private readonly authService: AuthService,
   ) {}
 
+  @Get()
+  async index() {
+    return this.appService.getHello();
+  }
+
   @UseGuards(AuthGuard('local'))
   @Post('login')
   async login(@Request() req) {
