@@ -25,6 +25,7 @@ async function bootstrap() {
 
   await app.listen(port, host, () => {
     Logger.log(`Server is started on http://${host}:${port}`, 'Bootstrap');
+    Logger.log(`Photo apis document is started on http://${host}:${port}/api/photo`, 'Swagger');
   });
 }
 
