@@ -10,6 +10,10 @@ export class PhotoService {
     private readonly photoRepository: Repository<Photo>,
   ) {}
 
+  create(photo): Promise<any> {
+    return this.photoRepository.save(photo);
+  }
+
   findAll(): Promise<Photo[]> {
     return this.photoRepository.find();
   }
