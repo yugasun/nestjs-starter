@@ -11,6 +11,7 @@ Project template for [Nest](https://github.com/nestjs/nest) framework.
 - [x] Integrated with Swagger.
 - [x] Jwt auth token.
 - [x] Redis cache.
+- [x] Integrated with health check using [terminus](https://github.com/godaddy/terminus).
 
 ## Installation
 
